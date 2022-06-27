@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="assets/plugins/animation/css/animate.min.css">
     <!-- vendor css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- dark mode css -->
+    <link rel="stylesheet" href="assets/css/dark.css">
 
 </head>
 
@@ -144,6 +146,12 @@
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
+                <li>
+                    <label>
+                        <i class="icon feather icon-sun" id="theme-indicator"></i>
+                        <input type="checkbox" id="theme-switch" class="d-none">
+                    </label>
+                </li>
                 <li>
                     <div class="dropdown">
                         <a class="dropdown-toggle" href="javascript:" data-toggle="dropdown"><i class="icon feather icon-bell"></i></a>
@@ -447,6 +455,8 @@
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script src="assets/plugins/google-maps/js/gmaps.js"></script>
     <script src="assets/js/pages/google-maps.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+
 
 </body>
 </html>
