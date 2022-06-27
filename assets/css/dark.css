@@ -1,6 +1,9 @@
 #theme-indicator {
   cursor: pointer; }
 
+.pcoded-header label {
+  color: #3f4d67; }
+
 body.dark {
   background-color: #082032;
   color: white !important; }
@@ -80,5 +83,11 @@ body.dark {
   body.dark .tab-content {
     background-color: #2C394B;
     color: white !important; }
+  body.dark .pcoded-header {
+    background-color: #082032; }
+  body.dark .pcoded-header > .collapse:not(.show) {
+    background-color: #2C394B; }
+  body.dark .pcoded-header .main-search.open .input-group .search-close {
+    background-color: transparent; }
 
 /*# sourceMappingURL=dark.css.map */

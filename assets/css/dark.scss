@@ -6,7 +6,9 @@ $dark-primary: #082032;
 $dark-secondary: #2C394B;
 $dark-accent: #334756;
 
-
+.pcoded-header label{
+    color: #3f4d67;
+}
 body.dark {
     background-color: $dark-primary;
     color: white !important;
@@ -143,5 +145,16 @@ body.dark {
     .tab-content {
         background-color: $dark-secondary;
         color: white !important;
+    }
+
+//    Bug fixes
+    .pcoded-header{
+        background-color: $dark-primary;
+    }
+    .pcoded-header > .collapse:not(.show){
+        background-color: $dark-secondary;
+    }
+    .pcoded-header .main-search.open .input-group .search-close{
+        background-color: transparent;
     }
 }
