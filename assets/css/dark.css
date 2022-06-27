@@ -52,7 +52,8 @@ body.dark {
   body.dark .input-group-prepend,
   body.dark .input-group-append {
     background-color: rgba(8, 32, 50, 0.8);
-    border-color: #2C394B !important; }
+    border-color: #2C394B !important;
+    color: white; }
     body.dark .custom-select span,
     body.dark .form-control span,
     body.dark .input-group-prepend span,

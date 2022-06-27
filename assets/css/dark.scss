@@ -97,6 +97,7 @@ body.dark {
     .input-group-append,{
         background-color: rgba($dark-primary, 0.8);
         border-color: $dark-secondary !important;
+        color: white;
         span{
             border-color: $dark-secondary !important;
         }
